@@ -5,7 +5,7 @@ public class Main {
         System.out.println("Hello world!");
 
         Mother superObject = new Mother();
-        Child subordinateObject = new Child();
+        MotherChild subordinateObject = new MotherChild();
 
         superObject.i = 10;
         superObject.j = 20;

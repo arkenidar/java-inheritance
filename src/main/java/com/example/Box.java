@@ -15,7 +15,7 @@ public class Box {
         this.z = box.z;
     }
 
-    double calculateVolume(){
+    double calculateVolume() {
         return this.x * this.y * this.z;
     }
 }
