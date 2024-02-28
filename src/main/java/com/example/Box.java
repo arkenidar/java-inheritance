@@ -15,6 +15,10 @@ public class Box {
         this.z = box.z;
     }
 
+    Box(double same) {
+        this(same, same, same);
+    }
+
     double calculateVolume() {
         return this.x * this.y * this.z;
     }
