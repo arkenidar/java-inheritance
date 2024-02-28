@@ -27,5 +27,12 @@ public class Main {
 
         Mother.staticSuper();
         Mother.staticVariable++;
+
+        System.out.println("=============== equals()");
+        Box b1 = new Box(1, 2, 3);
+        Box b2 = new Box(1, 2, 3);
+        Box b3 = new Box(4, 5, 6);
+        System.out.println(b1.equals(b2));
+        System.out.println(b1.equals(b3));
     }
 }

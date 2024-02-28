@@ -18,4 +18,8 @@ public class Box {
     double calculateVolume() {
         return this.x * this.y * this.z;
     }
+
+    boolean equals(Box box) {
+        return x == box.x && y == box.y && z == box.z;
+    }
 }
