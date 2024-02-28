@@ -9,8 +9,7 @@ public class BoxShipment extends BoxWeight {
     }
 
     public BoxShipment(Box box, double weight, double cost) {
-        super(box.x, box.y, box.z, weight);
-        this.cost = cost;
+        this(box.x, box.y, box.z, weight, cost);
     }
 
 }
